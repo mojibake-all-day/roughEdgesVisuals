@@ -225,8 +225,12 @@ p{
 h1 {font-size: 3rem;}
 }
 
-.landerDivvy{
+.landerDi{
+  padding: 3% 3% 15%;
 }
 
+.photoDi{
+  padding: 3% 3% 15%;
+}
 
 }
