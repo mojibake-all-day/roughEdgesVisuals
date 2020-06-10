@@ -1,0 +1,211 @@
+
+body{
+  font-family: 'Work Sans', sans-serif;
+  letter-spacing: 0.35rem;
+  color: #C2B5BE;
+
+
+
+}
+
+h1{
+  font-family: 'Playfair Display', serif;
+  font-weight: 400;
+  font-size: 4rem;
+  color: #C2B5BE;
+  margin: 0;
+  letter-spacing: 0.85rem;
+  padding-bottom: 15%;
+}
+
+a{
+  color:#C2B5BE;
+}
+
+p{
+    text-transform: capitalize;
+    font-weight: 600;
+}
+
+
+/* ids */
+
+#navbar {
+  background-color: #0B0A11; /* Black background color */
+  position: fixed; /* Make it stick/fixed */
+  top: 0; /* Stay on top */
+  width: 100%; /* Full width */
+  transition: top 0.3s; /* Transition effect when sliding down (and up) */
+  z-index: 1;
+}
+
+/* Style the navbar links */
+#navbar a {
+  float: center;
+  display: block;
+  color: #C2B5BE;
+  text-align: center;
+  padding: 15px;
+  text-decoration: none;
+  z-index: 2;
+}
+
+#navbar a:hover {
+  background-color:#C2B5BE;
+  color: #3B3758;
+}
+
+
+
+
+/*sections */
+
+/* lander */
+
+#lander{
+  color: white;
+}
+
+.landerDi{
+  padding: 15%;
+  text-align: center;
+  background-color: #300717;
+  z-index: -1;
+  height: 100%;
+}
+
+.landerDivvy{
+    background-image: url("../images/swan.jpg");
+    max-width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 15%;
+    text-align: center;
+    z-index: -1;
+    height: 100%;
+  }
+  /* opacity: 90%; */
+
+
+
+
+
+.title{
+
+
+}
+
+/* photo */
+
+#photography a{
+  font-size: 3rem;
+}
+
+#photography a:hover{
+  color: #3B3758;
+  font-size: 5rem;
+}
+
+
+
+.photoDi{
+  background-image: url("../images/rioUnderSat.jpg");
+  max-width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 15%;
+  text-align: center;
+  z-index: -1;
+  height: 100%;
+}
+
+.photoDi p{
+  color:white;
+}
+
+.photoTitle{
+  color:white;
+}
+
+
+/* brands */
+
+.brandTitle{
+  color: #0B0A11;
+  padding-bottom: 2rem;
+}
+
+.brandDi{
+  padding: 15%;
+  text-align: center;
+  background-color: #C2B5BE;
+  color: #0B0A11;
+  z-index: -1;
+  height: 100%;
+}
+
+.insta{
+  margin:2.5rem auto;
+}
+
+/* videos */
+
+#carousel-example{
+  z-index: 0;
+}
+
+.vidTitle{
+  padding-bottom: 5%;
+}
+
+.cara{
+  max-width: 100%;
+}
+
+/* contact */
+
+#contact a{
+  margin-top: 1rem;
+  padding: 0.5rem;
+}
+
+.butty{
+  border-radius: 1.5%;
+  border: solid thin #0B0A11;
+  color: #0B0A11;
+}
+
+.butty:hover{
+  background-color: #3B3758;
+  border: solid thin #C2B5BE;
+  color: #C2B5BE;
+  text-decoration: none;
+}
+
+
+#footer {
+  background-color: #0B0A11;
+  padding: 5% 15% 2%;
+  text-align: center;
+
+}
+
+#footer a:hover {
+  color: #3B3758;
+  padding-bottom: 2rem;
+}
+
+
+
+
+
+
+
+
+@media (max-width:1028px) {
+
+h1 {font-size: 3rem;}
+}
+}
