@@ -75,7 +75,7 @@ p{
 }
 
 .landerDivvy{
-    background-image: url(../Images/swan.jpg);
+    background-image: url(../images/swan.jpg);
     max-width: 100%;
     background-position: center;
     background-repeat: no-repeat;
@@ -110,7 +110,7 @@ p{
 
 
 .photoDi{
-  background-image: url(../Images/rioUnderSat.jpg);
+  background-image: url(../images/rioUnderSat.jpg);
   max-width: 100%;
   background-position: center;
   background-repeat: no-repeat;
@@ -193,7 +193,14 @@ p{
 }
 
 #footer a:hover {
+  font-size: 4rem;
   color: #3B3758;
+  padding-bottom: 3rem;
+}
+
+#footer a{
+  font-size: 3.5rem;
+  color: #C2B5BE;
   padding-bottom: 2rem;
 }
 
@@ -206,6 +213,12 @@ p{
 
 @media (max-width:1028px) {
 
+body{
+  font-size: 1rem;
+}
+
 h1 {font-size: 3rem;}
 }
+
+
 }
