@@ -233,4 +233,18 @@ h1 {font-size: 3rem;}
   padding: 3% 3% 15%;
 }
 
+.landerDivvy{
+  padding: 3% 3% 15%;
+}
+
+.brandDi{
+  padding: 3% 3% 15%;
+}
+
+.butty{
+  position: relative;
+  float: right;
+}
+
+
 }
