@@ -10,4 +10,4 @@ window.onscroll = function() {
 }
 
 
-$(".lazy").fadeIn(10000);
+$(".lazy").fadeIn(1000);
