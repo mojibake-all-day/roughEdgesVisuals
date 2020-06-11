@@ -3,7 +3,7 @@ body{
   font-family: 'Work Sans', sans-serif;
   letter-spacing: 0.35rem;
   color: #C2B5BE;
-
+  text-transform: capitalize;
 
 
 }
@@ -16,6 +16,7 @@ h1{
   margin: 0;
   letter-spacing: 0.85rem;
   padding-bottom: 15%;
+  text-transform: capitalize;
 }
 
 a{
@@ -23,8 +24,8 @@ a{
 }
 
 p{
-    text-transform: capitalize;
-    font-weight: 600;
+
+    font-weight: 900;
 }
 
 
@@ -67,11 +68,16 @@ p{
 }
 
 .landerDi{
-  padding: 15%;
+  padding: 15% 10% 15%;
   text-align: center;
-  background-color: #300717;
+  background-color: #;
   z-index: -1;
   height: 100%;
+  background-image: url(../images/Plane.jpg);
+  max-width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .landerDivvy{
@@ -80,7 +86,7 @@ p{
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    padding: 15%;
+    padding: 17% 10% 15%;
     text-align: center;
     z-index: -1;
     height: 100%;
@@ -115,7 +121,7 @@ p{
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  padding: 15%;
+  padding: 15% 10% 15%;
   text-align: center;
   z-index: -1;
   height: 100%;
@@ -138,7 +144,7 @@ p{
 }
 
 .brandDi{
-  padding: 15%;
+  padding: 15% 10% 15%;
   text-align: center;
   background-color: #C2B5BE;
   color: #0B0A11;
@@ -175,6 +181,8 @@ p{
   border-radius: 1.5%;
   border: solid thin #0B0A11;
   color: #0B0A11;
+    position: relative;
+    float: center;
 }
 
 .butty:hover{
@@ -195,7 +203,6 @@ p{
 #footer a:hover {
   font-size: 4rem;
   color: #3B3758;
-  padding-bottom: 3rem;
 }
 
 #footer a{
@@ -211,39 +218,17 @@ p{
 
 
 
-@media (max-width:1028px) {
+@media (max-width:1024px) {
 
 body{
-  font-size: 2rem;
+  font-size: 1.5rem;
 }
 
 p{
-  font-size: 2rem;
-  font-weight: 600;
+  font-size: 1.5rem;
 }
 
-h1 {font-size: 3rem;}
-}
-
-.landerDi{
-  padding: 3% 3% 15%;
-}
-
-.photoDi{
-  padding: 3% 3% 15%;
-}
-
-.landerDivvy{
-  padding: 3% 3% 15%;
-}
-
-.brandDi{
-  padding: 3% 3% 15%;
-}
-
-.butty{
-  position: relative;
-  float: right;
+h1 {font-size: 4rem;}
 }
 
 

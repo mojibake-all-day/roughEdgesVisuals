@@ -8,3 +8,6 @@ window.onscroll = function() {
   }
   prevScrollpos = currentScrollPos;
 }
+
+
+$(".lazy").fadeIn(10000);

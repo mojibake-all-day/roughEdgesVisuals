@@ -4,6 +4,7 @@
 <head>
 
   <meta charset="utf-8">
+  <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
   <title>Rough Edges Visuals</title>
 
 
@@ -21,6 +22,7 @@
   <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
   <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+
 
 </head>
 
@@ -58,13 +60,12 @@
 
 <!-- lander -->
 <section id="lander">
-  <div class="container-fluid landerDivvy d-block w-100">
+  <div class="container-fluid landerDivvy d-block w-100 lazy" data-loader="customLoaderName">
     <!-- <img  class="landerBkg" src="Images/Sky7.jpg" alt=""> -->
 
-    <div class="text-left">
+    <div class="col-lg-12 text-left">
 
           <p>LDN/BRLN</p>
-
           <h1 class="title">ROUGH EDGES VISUALS</h1>
 
 
@@ -87,12 +88,12 @@
 <!-- Photography -->
 
 <section id="photography">
-  <div class="container-fluid photoDi d-block w-100">
+  <div class="container-fluid photoDi d-block w-100 lazy" data-loader="customLoaderName">
     <!-- <img  class="landerBkg" src="Images/Sky7.jpg" alt=""> -->
 
     <div class="text-left">
 
-          <h1 class="photoTitle">Photography</h1>
+          <h1 class="photoTitle">PHOTOGRAPHY</h1>
 
           <div class="row">
             <div class="col col-lg-6">
@@ -124,15 +125,16 @@
 <!-- branding  -->
 
 <section id="brands">
-  <div class="container-fluid brandDi d-block w-100">
+  <div class="container-fluid brandDi">
     <!-- <img  class="landerBkg" src="Images/Sky7.jpg" alt=""> -->
+    <h1 class="brandTitle">BRANDING FOR YOUR BUSINESS</h1>
+    <p>WE CAN TAKE CARE OF YOUR SOCIAL MEDIA CONTENT OR HELP WITH ORGANISING AND EDITING GRAPHIC CONTENT TO BUILD YOUR BRAND.</p>
 
     <div class="text-left">
 
-          <h1 class="brandTitle">Branding for small business</h1>
-          <p>We can take care of your social media or help with organising and editing graphic content for your web presence. </p>
 
-          <div class="row insta w-100">
+
+          <div class="row insta w-100 lazy">
             <div class="col col-lg-4 col-md-12">
               <iframe src="https://www.instagram.com/p/B9KW0TLF682/embed" width="300" height="250" frameborder="0" scrolling="no" allowtransparency="true"></iframe>
             </div>
@@ -144,7 +146,7 @@
             </div>
           </div>
 
-        <div class="row insta">
+        <div class="row insta lazy">
           <div class="col col-lg-4 col-md-12">
             <iframe src="https://www.instagram.com/p/Bw5WMWyhANB/embed" width="300" height="250" frameborder="0" scrolling="no" allowtransparency="true"></iframe>
           </div>
@@ -162,16 +164,14 @@
 <!-- videography -->
 
 <section id="videography">
-  <div class="container-fluid landerDi d-block w-100">
-    <div class="text-left">
-      <div class="top-content">
-    <div class="container">
+  <div class="container-fluid landerDi d-block w-100 text-center lazy" data-loader="customLoaderName">
+
         <!-- Title and description row -->
         <div class="row">
-            <div class="col col-md-6">
-                  <h1 class="vidTitle">Videography</h1>
+            <div class="col col-md-12">
+                  <h1 class="vidTitle">VIDEOGRAPHY</h1>
                 <div class="description">
-                    <p class="vidText">Everything from filming to editing footage</p>
+                    <p class="vidText">EVERYTHING FROM FILMING TO EDITING RAW FOOTAGE.</p>
 
 
                 </div>
@@ -179,7 +179,7 @@
         </div>
         <!-- End title and description row -->
         <!-- Carousel row -->
-        <div class="row">
+        <div class="row lazy">
             <div class="col col-md-10 offset-md-1 col-lg-8 offset-lg-2">
                 <!-- Carousel -->
                 <div id="carousel-example" class="carousel slide">
@@ -274,38 +274,24 @@
         </div>
         <!-- End carousel row -->
     </div>
-</div>
-
-
-
-
-
-
-
-
-
-    </div>
-
-
-  </div>
 
 </section>
 
 <!-- Contact us -->
 
 <section id="contact">
-  <div class="container-fluid brandDi d-block w-100">
+  <div class="container-fluid brandDi d-block w-100 row">
     <!-- <img  class="landerBkg" src="Images/Sky7.jpg" alt=""> -->
 
-    <div class="text-left">
+    <div class="text-left col-lg-12">
 
-          <h1 class="brandTitle">Get in Touch</h1>
+          <h1 class="brandTitle">GET IN TOUCH</h1>
 
           <div class="row">
-            <div class="col col-lg-6">
-              <p>If you're interested in working with us, we can book a free 20 minute consult to work out what you need.</p>
+            <div class="col col-lg-6 col-md-12">
+              <p>IF YOU'RE INTERESTED, YOU CAN BOOK A FREE 20 MINUTE CONSULTATION TO ASSES WHAT YOU NEED.</p>
             </div>
-            <div class="col col-lg-6 text-center">
+            <div class="col col-lg-6 text-center col-md-12">
               <a type="button" name="button" class="butty" href='mailto:roughedgesvisuals@gmail.com'> DROP US A LINE</a>
             </div>
 
@@ -336,6 +322,7 @@
 
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 <script src="header.js" charset="utf-8"></script>
+
 
 </body>
 
