@@ -112,9 +112,7 @@ p{
   background-repeat: no-repeat;
   background-size: cover;
   padding: 15% 5% 15%;
-  text-align: center;
   z-index: -1;
-  height: 100%;
 }
 
 .photoDi p{
@@ -139,7 +137,6 @@ p{
   background-color: #C2B5BE;
   color: #0B0A11;
   z-index: -1;
-  height: 100%;
 }
 
 .insta{
