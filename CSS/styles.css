@@ -221,7 +221,7 @@ p{
 
 body{
   font-size: 3rem;
-  text-align: center;
+  text-align: center !important;
 }
 
 p{
@@ -234,7 +234,7 @@ h1 {
 }
 
 .mobilePad{
-  padding: 12% 2%, 16% !important;
+  padding: 12% 1%, 16% !important;
 }
 
 }
