@@ -68,7 +68,7 @@ p{
 }
 
 .landerDi{
-  padding: 15% 10% 15%;
+  padding: 15% 5% 15%;
   text-align: center;
   z-index: -1;
   height: 100%;
@@ -85,10 +85,9 @@ p{
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    padding: 17% 10% 15%;
+    padding: 17% 5% 15%;
     text-align: center;
     z-index: -1;
-    height: 100%;
   }
   /* opacity: 90%; */
 
