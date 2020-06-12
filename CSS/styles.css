@@ -111,7 +111,7 @@ p{
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  padding: 15% 10% 15%;
+  padding: 15% 5% 15%;
   text-align: center;
   z-index: -1;
   height: 100%;
@@ -134,7 +134,7 @@ p{
 }
 
 .brandDi{
-  padding: 15% 10% 15%;
+  padding: 15% 5% 15%;
   text-align: center;
   background-color: #C2B5BE;
   color: #0B0A11;
