@@ -213,29 +213,29 @@ p{
 @media (max-width:1024px) {
 
   #navbar a {
-    font-size: 2rem;
+    font-size: 3rem;
   }
 
   #navbar button{
-    font-size: 1.5rem;
+    font-size: 3rem;
   }
 
 body{
-  font-size: 2rem;
+  font-size: 3rem;
   text-align: center;
 }
 
 p{
-  font-size: 1.5rem;
+  font-size: 3rem;
 }
 
 h1 {
-  font-size: 5rem;
+  font-size: 6rem;
   padding: 6rem 0 7rem;
 }
 
 .mobilePad{
-  padding: 12% 3%, 16% !important;
+  padding: 12% 2%, 16% !important;
 }
 
 }
